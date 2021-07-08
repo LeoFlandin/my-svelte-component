@@ -2,26 +2,15 @@ My svelte component
 =============
 2020-05-08
 
-This is my template for a svelte component.
-
-
+This is a template for a svelte component, based on [lingtalfi/my-svelte-component](https://github.com/lingtalfi/my-svelte-component)
+I added some guideline for injecting propos in a `new MyComponent` style Svelte component because I did not found an documentation about that.  
 
 It follows the guidelines exposed in the [Inject svelte in an existing html page recipe](https://github.com/lingtalfi/TheBar/blob/master/discussions/inject-svelte-in-existing-app.md).
 
-
-
 To install and use your new component based on that template, follow the tutorial below.
-
-
-
-
-
 
 Tutorial: install a new component in 5 steps
 ========
-
-
-
 
 Goal: have a svelte component working, name=**MyAwesomeComponent**, dir=**my-awesome-component**.
 
@@ -61,29 +50,6 @@ to modify live. This is probably this setup that we will use while creating our 
 ```bash
 cd /path/to/my-awesome-component
 npm run dev-test
-```
-
-
-
-
-
-
-
-
-
-
-
-Tutorial: install a new component in 1 step with unitool
-=========
-
-If you are using the [universe framework](https://github.com/karayabin/universe-snapshot)
-you can do all the steps described above with 1 line of code.
-This requires a setup (todo only once for all) described in the [SvelteTemplateBuilder planet](https://github.com/lingtalfi/SvelteTemplateBuilder).
-
-With that builder tool installed (and assuming the alias created), just type the following:
-
-```bash 
-sveltecompo MyTestComponent my-test-component
 ```
 
 
